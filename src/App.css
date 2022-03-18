@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+
+.container .FormBox, h1, button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInner{
+  width: 540px;
+  margin: 80px auto;
+  border: 1px solid #ddd;
+  padding: 60px;
+  border-radius: 11px;
+} 
+.formInner h1{
+  margin-bottom: 30px;
+}
+.formInner .FormBox{
+  margin: 15px 0;
+}
+.formInner .FormBox label{
+  width: 125px;
+  font-weight: 600;
+}
+.formInner .FormBox input{
+ width: 350px;
+}
+.formInner .FormBox button{
+  background: transparent;
+  border-color: #dddd;
+  padding: 10px 45px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 17px;
+}
